@@ -39,7 +39,7 @@ def delete(request: LoginRequest):
     delete_comments = 0
     username = request.username
     password = request.password
-    key = "AIzaSyDaH_wJTRi7ctrcQ8zfx0OYyiVxfp9UEGU"
+    key = "Your Api Key Here"
     cl = Client()
     genai.configure(api_key=key)
     model = genai.GenerativeModel("gemini-1.5-flash")
