@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+instagrapi
+better-profanity
+google-generativeai
